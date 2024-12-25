@@ -1,0 +1,167 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f7f7f7;
+    color: #333;
+}
+
+a {
+    color:hsla(211, 35%, 17%, 1) ;
+    text-decoration: none;
+}
+
+h2, h3 {
+    margin: 0 0 15px;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #ffffff;
+    border-bottom: 1px solid #ddd;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header .nav a {
+    margin-left: 20px;
+}
+
+/* Main Container */
+.main-container {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.checkout-container {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+/* Left: Form */
+.checkout-form {
+    flex: 2;
+    padding: 40px;
+    border-right: 1px solid #ddd;
+}
+
+.checkout-form .input-row {
+    display: flex;
+    gap: 15px;
+}
+
+.checkout-form .input-group {
+    flex: 1;
+    margin-bottom: 20px;
+}
+
+.checkout-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.checkout-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.checkout-form .btn-submit {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background: hsla(173, 96%, 28%, 1);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.checkout-form .btn-submit:hover {
+    background: #005bb5;
+}
+
+.checkout-form .support {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.checkout-form .powered {
+    font-size: 12px;
+    text-align: center;
+    color: #999;
+    margin-top: 10px;
+}
+
+/* Right: Pricing Info */
+.checkout-info {
+    flex: 1;
+    background: hsla(204, 84%, 41%, 1);
+    color: #fff;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.checkout-info h3 {
+    margin-bottom: 15px;
+}
+
+.checkout-info .price {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.checkout-info ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.checkout-info ul li {
+    margin: 10px 0;
+}
+
+.checkout-info .plan-switch {
+    margin-top: 20px;
+}
+
+.checkout-info .testimonial {
+    font-style: italic;
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: #ffffff;
+    border-top: 1px solid #ddd;
+    font-size: 14px;
+}
+.switch{
+    color: hsla(189, 100%, 86%, 1);
+}
