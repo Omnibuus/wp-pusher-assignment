@@ -135,11 +135,13 @@ h2, h3 {
 }
 
 .checkout-info ul {
-    list-style: none;
-    padding: 0;
+    list-style: square;
+    list-style-image: url(check-mark.png);
+    list-style-image: white;
+    
+    padding-right: 7.5px;
     margin: 0;
 }
-
 .checkout-info ul li {
     margin: 10px 0;
 }
